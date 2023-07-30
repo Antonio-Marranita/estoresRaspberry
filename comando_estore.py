@@ -22,7 +22,7 @@ tempoComando=1
 tempoTravao=0.5
 travao.value(0)
 
-#lê estados dos sensores antes de iniciar, se existirem
+#lê estados dos sensores antes de iniciar, se existirem e
 try:
     with open('sensorIman1.json', 'r') as f:
         data = json.load(f)
